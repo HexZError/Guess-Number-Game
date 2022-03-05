@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guess Number Game</title>
+</head>
+<body>
+	<!--First Game Page-->
+	<div id="first-container">
+		<fieldset>
+			<div class="inner-items">
+				<h1>GUESS NUMBER GAME</h1>
+				<img src="logo.png" alt="Game Image">
+				<p>Choose Level</p>
+				<button onclick="easymode()">EASY : 10 ATTEMPT</button><br>
+				<button onclick="hardmode()">HARD : 5 ATTEMPT</button>
+			</div>
+		</fieldset>
+	</div>
+	<!--Second Game Page-->
+	<div id="second-container">
+		<fieldset>
+			<div class="second-inner-items">
+				<h1>GUESS NUMBER BETWEEN 1 TO 20</h1>
+				<span id="notice"></span>
+				<!--Input area-->
+				<input type="number" id="inputvalue" placeholder="Enter Number.."><br>
+				<button onclick="submit()">Submit</button>
+				<p>Number Of Attempt:<span class="Noattempt"></span></p>
+				<p>You Enter This Numbers:<span class="EnterNumber"></span></p>
+			</div>
+		</fieldset>
+	</div>
+	<!--Result screen -->
+	<div id="result-container">
+		<fieldset>
+			<div class="result-inner">
+				<button onclick="newGamePage()">New Game</button>
+				<h1 class="newtext">It's Correct Answer &#128512</h1>
+				<h2>Number of Attempt</h2>
+				<span id="number_attempt"></span>
+			</div>
+		</fieldset>
+	</div>
+	<!--Loose Screen-->
+	<div id="loose-container">
+		<fieldset>
+		<div class="result-inner">
+				<button onclick="newGamePage()">New Game</button>
+				<h1>You Loose!!! Correct Number is<span id="num"></span></h1>
+				<h2>Number of Attempt</h2>
+				<span id="number_attempt"></span>
+			</div>
+			</fieldset>
+	</div>
+	<script src="Game_mind.js"></script>
+</body>
+</html>

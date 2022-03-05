@@ -1,0 +1,106 @@
+body{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#first-container{
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #d9138a;
+}
+.inner-items h1{
+	font-size: 25px;
+	padding-top: 20px;
+	text-align: center;
+	font-family:sans-serif;
+}
+.inner-items img{
+	width: 300px;
+	margin-left: 35px;
+}
+.inner-items p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+}
+.inner-items button{
+	margin-left: 115px;
+	padding: 15px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #45ada8;
+}
+fieldset{
+	border: none;
+}
+/*Second page css*/
+#second-container{
+	display: none;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #d9138a;
+}
+.second-inner-items{
+	padding-bottom: 50px;
+}
+.second-inner-items h1{
+	font-size: 25px;
+	font-family: monospace;
+	text-align: center;
+}
+.second-inner-items input{
+	margin-left: 88px;
+	border: none;
+	margin-top: 30px;
+	font-size: 25px;
+	width: 180px;
+	height: 60px;
+	border-radius: 10px;
+}
+.second-inner-items button{
+	margin-left: 150px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.second-inner-items p{
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: monospace;
+}
+#notice{
+	font-size:20px;
+	font-family: cursive;
+}
+/*Result screen css*/
+#result-container{
+	width:400px;
+	display: none;
+	margin:auto;
+	background-color: antiquewhite;
+}
+.result-inner button{
+	margin-top: 30px;
+	margin-left: 142px;
+	padding:18px;
+	background-color: #45ada8;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.result-inner h1,h2{
+	text-align: center;
+	font-family: fantasy;
+}
+/*Lose Game css*/
+#loose-container{
+	width:400px;
+	display: none;
+	margin:auto;
+	background-color: antiquewhite;
+}
